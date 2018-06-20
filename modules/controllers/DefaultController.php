@@ -15,7 +15,7 @@ class DefaultController extends Controller
      */
     public function actionIndex()
     {
-        echo 'admin';exit;
+        $this->layout = "layout1";
         return $this->render('index');
     }
 }
